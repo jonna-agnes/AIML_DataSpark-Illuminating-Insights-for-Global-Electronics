@@ -9,28 +9,34 @@
 ## Technologies Used
 
 - Python 3.x
-- Streamlit
 - SQL (MySQL or PostgreSQL)
 - Pandas
-- SQLAlchemy
+- SQL Connector
+- Power BI
 
 ## Packages Used
 
-- streamlit
-- pandas
-- sqlalchemy
-- pymysql or psycopg2
 - numpy
+- pandas
+- matplotlib
+- seaborn
+- sqlconnector
 
 ## Workflow and Execution Flow
 
-- Extract data from the database using SQL queries.
+- Project setup and install packages/softwares.
+- Extract data from the uncleaned dataset
 - Clean and process data with pandas.
+- Database setup using SQL queries.
+- Data Analysis in workbench.
 - Visualize insights using Streamlit dashboards.
-- Modular functions for each analysis step.
 
 ## Project Development
 
 - Modular codebase with functional blocks for each analysis.
 - Organized SQL queries for different analytics modules.
 - Easily extensible for future enhancements.
+- Data Cleaning and Prepapration.
+- Load data in SQL database.
+- Power BI Visualisation.
+- Develop 10 SQL queries.
